@@ -32,14 +32,15 @@ export const Footer = () => {
           </CDBBox>
           <CDBBox >
             <p className="h5 mb-4" style={{ fontWeight: '600' }}>
-              Zorro con Botas
+              Informaciones
             </p>
             <div className="customColumns">
             <CDBBox flex="column" style={{ cursor: 'pointer', padding: '0' }} className="customLinks">
-              <Link to="/N" >Nuestro Proyecto</Link><br></br>
-              <Link to="/E">Equipo</Link><br></br>
-              <Link to="/C">Contacto</Link><br></br>
-              <Link to="/B">Blog</Link><br></br>
+            <p>Correo: zorroconbotas@corralco.com</p>
+              <p>Teléfono: 045 8585858</p>
+              <p>Dirección: En las faldas <br></br>del volcán Lonquimay, Chile</p>
+              
+              
             </CDBBox>
             </div>
           </CDBBox>

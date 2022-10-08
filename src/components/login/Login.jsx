@@ -19,11 +19,12 @@ const Login = () => {
   }
   return(
     <div className="row container p-4">
+        <h3>Aquí puedes registrarte. ¡más adelante podrás dejarnos un comentario en nuestro muro y tendrás otros beneficios!</h3>
           {/* formulario */}
           <div className="col-md-4">
               <div className="mt-5 ms-5">
                   {/* render conditional */}
-                  <h1>{register ? 'Registrarse' : 'Iniciar Sesion'}</h1>
+                  <h2>{register ? 'Registrarse' : 'Iniciar Sesion'}</h2>
                   {/*colocando onsubmit*/}
                   <form onSubmit={handlerSubmit}>
                       <div className="mb-3">

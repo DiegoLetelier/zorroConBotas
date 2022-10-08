@@ -13,8 +13,8 @@ const Wall = ({userEmail}) => {
  return(
     <div>
         <h3>Muro</h3>
-        <p>hola, {userEmail}</p>
-        <h5>Deja tus comentarios sobre nosotros y tu experiencias en el restaurante</h5>
+        <p>HOLA!, {userEmail}</p>
+        <h5>Próximamente aquí podrás dejar tus comentarios sobre nosotros y tu experiencias en el restaurante </h5>
         <button className="btn btn-primary" onClick={()=>signOut(auth)}>Cerrar sesión</button>     
 
         
