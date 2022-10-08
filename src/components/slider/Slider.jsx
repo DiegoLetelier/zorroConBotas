@@ -14,7 +14,7 @@ const Slider = (props) => {
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container ">
-              <img src={fadeImage.url} style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', width: "50%", }}/>
+              <img src={fadeImage.url} alt='' style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', width: "50%", }}/>
             </div>
             <h4 style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', width: "50%", }}>{fadeImage.caption} </h4>
           </div>

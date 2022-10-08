@@ -8,3 +8,8 @@
     color: #ffff;
     
 }
+
+.customColunms{
+    display:inline-block;
+    max-width: 30%;
+}

@@ -1,3 +1,5 @@
+
+import Info from '../info/Info';
 import zorro from '../../Routes/Navigation/Master-Zorro.png'
 import {Link} from 'react-router-dom'
 import { CDBFooter, CDBBox, CDBBtn, CDBIcon } from 'cdbreact';
@@ -41,7 +43,18 @@ export const Footer = () => {
             </CDBBox>
             </div>
           </CDBBox>
-          
+          <CDBBox >
+            
+            <Info/>
+            {/* <div className="customColumns">
+            <CDBBox flex="column" style={{ cursor: 'pointer', padding: '0' }} className="customLinks">
+              <Link to="/N" >Nuestro Proyecto</Link><br></br>
+              <Link to="/E">Equipo</Link><br></br>
+              <Link to="/C">Contacto</Link><br></br>
+              <Link to="/B">Blog</Link><br></br>
+            </CDBBox>
+            </div> */}
+          </CDBBox>
           
         </CDBBox>
         <small className="text-center mt-5">&copy; Zorro con Botas, 2022.</small>
