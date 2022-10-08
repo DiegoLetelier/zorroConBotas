@@ -1,0 +1,32 @@
+
+
+.customNavbar a:any-link{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    
+    
+}
+
+.customNavbar{
+    display: inline-flex;
+    position: relative;
+    max-height: 30px;
+    
+
+   
+}
+
+.zorroImg{
+    margin-top: 5px;
+    max-height: 30px;
+}
+
+.backNav{
+    align-items: center;
+    text-align: center;
+    background-color: #36C9C6;
+    min-height: 40px;
+}
+
+/* colors: yellow : fafba8  - red : ff3038 - brown : bf7200 - Black : #5E6472 - Ming - #16697A */
