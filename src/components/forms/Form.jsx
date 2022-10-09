@@ -48,7 +48,7 @@ const Form = () => {
             />
             <div >
                 <br></br>
-                <h3>Envíanos tu mensaje!</h3>
+                <h3>Formulario de Contacto</h3>
                 <form >
                     <label htmlFor='name'>Nombre y Apellido</label>
                     <div className="customInput">
@@ -68,7 +68,7 @@ const Form = () => {
                             handle={(e) => handleInput(e)}
                         />
                     </div>
-                    <label htmlFor="comment">Correo</label>
+                    <label htmlFor="comment">Mensaje</label>
                     <div className="customInput">
                         <textarea
 

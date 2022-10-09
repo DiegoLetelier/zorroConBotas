@@ -2,7 +2,7 @@
 import { auth } from "../../settings/firebase";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import {useState} from 'react'
-
+import '../wall/wall.css'
 
 
 const Login = () => {
@@ -18,6 +18,7 @@ const Login = () => {
       }
   }
   return(
+    <div className="customBackground">
     <div className="row container p-4">
         <h3>Aquí puedes registrarte. ¡más adelante podrás dejarnos un comentario en nuestro muro y tendrás otros beneficios!</h3>
           {/* formulario */}
@@ -45,6 +46,7 @@ const Login = () => {
                   </div>
               </div>
           </div>
+      </div>
       </div>
   )
 }

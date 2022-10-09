@@ -2,6 +2,7 @@ import './menu.css'
 
 const Menu = () => {
     return (
+      <div className="customBackground">
       <div className="center">
           <h2> MENU</h2>
           <div>
@@ -11,6 +12,7 @@ const Menu = () => {
           <div>
             
           </div>
+      </div>
       </div>
     )
   
