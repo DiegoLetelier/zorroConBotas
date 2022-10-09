@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# Zorro con botas REACT APP
+
+
+
+## Sobre el Proyecto
+
+Cumplí con todo lo que se pide básico y algunas otras cosas más, se pedía :
+
+Una sección o página sobre información principal del restaurante, en la home. <br>
+Una sección de formulario de contacto, en mensajes. <br>
+Una sección de datos de ubicación y correo electrónico, en el footer. <br>
+
+Además se incetivaban algunos componentes extras, de los que hice:
+
+Un slider <br>
+Un Mapa <br>
+Un sistema de registro para usuarios <br>
+
+### Dejo el link donde vive la APP aquí: https://tubular-sopapillas-b0fa8e.netlify.app/
+
+## el resto de este Read.me original de React, 
+saludos,
+Diego. 
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
