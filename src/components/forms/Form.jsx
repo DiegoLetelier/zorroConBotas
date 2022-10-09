@@ -3,6 +3,7 @@ import Input from './Input'
 import { db } from '../../settings/firebase'
 import { collection, addDoc } from 'firebase/firestore'
 import toast, { Toaster } from 'react-hot-toast'
+import './form.css'
 
 
 const Form = () => {
@@ -40,14 +41,15 @@ const Form = () => {
 
 
     return (
-        <div>
+        <div className="customForm" >
             <Toaster
                 position="bottom-right"
                 reverseOrder={false}
             />
-            <div className="customForm">
+            <div >
+                <br></br>
                 <h3>Envíanos tu mensaje!</h3>
-                <form>
+                <form >
                     <label htmlFor='name'>Nombre y Apellido</label>
                     <div className="customInput">
                         <Input
@@ -79,6 +81,7 @@ const Form = () => {
                     <button onClick={(e) => sendMessage(e)} disabled={saving}>Enviar!</button>
                 </form>
             </div>
+            <br></br>
         </div>
 
     )
