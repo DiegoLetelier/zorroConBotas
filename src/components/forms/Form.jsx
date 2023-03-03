@@ -43,7 +43,7 @@ const Form = () => {
     return (
         <div className="customForm" >
             <Toaster
-                position="bottom-right"
+                position="top-center"
                 reverseOrder={false}
             />
             <div >

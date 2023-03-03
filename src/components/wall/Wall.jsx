@@ -11,7 +11,7 @@ const Wall = ({userEmail}) => {
 
    
  return(
-    <div>
+    <div className="customBackground">
         <h3>Muro</h3>
         <p>¡HOLA!, {userEmail}</p>
         <h5>Próximamente aquí podrás dejar tus comentarios sobre nosotros y tu experiencias en el restaurante </h5>

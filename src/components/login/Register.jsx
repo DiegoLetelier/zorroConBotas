@@ -4,6 +4,8 @@ import toast, { Toaster } from 'react-hot-toast'
 import { useState } from 'react'
 
 
+// Intenté usar una lógica y código distinto para el login, pero no me funcionó, este código lo dejaré aquí para verlo más tarde. 
+
 const Register = () =>{
     
     const initialValue = {
@@ -54,7 +56,7 @@ return (
                 <div className="customBackground">
                     <h2>Registrate</h2>
                     <Toaster
-                position="bottom-right"
+                position="top-center"
                 reverseOrder={false}
             />
                     <form >

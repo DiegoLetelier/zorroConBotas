@@ -41,10 +41,14 @@ const Inicio = () => {
   return (
     <div className="customBackground">
         <h1>ZORRO CON BOTAS RESTAURANTE</h1>
-        <p>El restaurante de montaña Zorro con Botas es ideal para hacer un break durante la jornada de ski. Con un cálido ambiente y una inmejorable vista al volcán Lonquimay, ofrece una variada carta de sándwiches y kebabs, junto a un delicioso a menú autoservicio, perfecto para recuperar energía.
+        <p className='pp'>El restaurante de montaña Zorro con Botas es ideal para hacer un break durante la jornada de ski. Con un cálido ambiente y una inmejorable vista al volcán Lonquimay, ofrece una variada carta de sándwiches y kebabs, junto a un delicioso a menú autoservicio, perfecto para recuperar energía.
 Acompaña tu almuerzo con una selección de los mejores vinos y cervezas nacionales o con un refrescante jugo natural. Para terminar, no olvides acompañar tu café con nuestras especialidades dulces.</p>
-      <Slider  fadeImages={fadeImages} />
-      <div className="customForm" >
+       <div className='sliderBox'>
+        <div className='column1' />
+        <p className='slider'><Slider  fadeImages={fadeImages} /> </p>
+        <div className='column2' /> 
+        </div>
+      <div>
       <Form />
       </div>
     </div>
